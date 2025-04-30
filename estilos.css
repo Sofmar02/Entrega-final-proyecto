@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    font-family: "Indie Flower", cursive;
+}
+
+
+
+body{
+    background: rgb(240,193,225);
+    background: linear-gradient(90deg, rgba(240,193,225,1) 0%, rgba(253,219,187,1) 45%, rgba(255,249,191,1) 100%);
+}
+.myEmociones{
+    background: rgb(203,157,240);
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.myEmociones:hover{
+    background-color: rgb(255,227,227);
+    color: red;
+    padding: 20px;
+}
+.infoemoc{
+    background: rgb(228,224,225);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(165, 91, 165);
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.infoemoc:hover{
+    background-color: rgb(255,176,176);
+    color: rgb(107, 8, 201);
+    padding: 20px;
+}
+.emoji{
+    background: rgb(165,148,249);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(229,217,242);
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.emoji:hover{
+    background-color: rgb(137,103,179);
+    color: rgb(245,239,255);    
+}
+p{
+    font-size: 1rem;
+    color: #624E88;
+}  
+.elTitulo{
+    font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+    color: blueviolet;
+} 
+
+h1{
+    font-family: "Homemade Apple", cursive;
+    color: #ffffff;
+    text-align: center;
+}
+    
+
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+.oneContainer {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
